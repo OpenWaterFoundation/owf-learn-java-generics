@@ -1,0 +1,7 @@
+# Ignore files under target since this is where binary class files are created
+# Commit the blank target folder since want new developers to at least see it to avoid confusion
+
+classes/
+test-classes/
+
+!.gitignore
